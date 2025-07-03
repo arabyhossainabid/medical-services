@@ -1,0 +1,23 @@
+import './globals.css'
+import Navbar from './Component/Navbar/Navbar'
+import './globals.css'; // or './index.css'
+
+export const metadata = {
+  title: 'Medical Services',
+  description: 'Your trusted healthcare partner',
+}
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="en">
+      <body className="bg-white text-gray-800 font-sans">
+        <Navbar></Navbar>
+        {children}
+      </body>
+    </html>
+  )
+}
