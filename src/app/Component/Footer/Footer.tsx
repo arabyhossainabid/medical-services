@@ -1,7 +1,7 @@
 'use client';
+import React from 'react'
 import { SendHorizontal } from 'lucide-react';
-
-export default function Footer() {
+function Footer() {
   return (
     <footer className="bg-gray-100 text-gray-800">
       <div className="md:max-w-10/12 mx-auto px-4 py-8 flex flex-col lg:flex-row lg:gap-[174px] gap-8">
@@ -67,3 +67,5 @@ export default function Footer() {
     </footer>
   );
 }
+
+export default Footer
