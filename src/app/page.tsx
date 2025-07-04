@@ -50,7 +50,6 @@ export default function HomePage() {
       <section id="testimonials" data-aos="" className="min-h-[80vh] px-4 py-12 scroll-mt-20">
         <Testimonials />
       </section>
-      <Footer />
     </main>
   )
 }

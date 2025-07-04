@@ -1,6 +1,6 @@
 import './globals.css'
 import Navbar from './Component/Navbar/Navbar'
-import './globals.css'; // or './index.css'
+import Footer from './Component/Footer/Footer'
 
 export const metadata = {
   title: 'Medical Services',
@@ -15,8 +15,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-white text-gray-800 font-sans">
-        <Navbar></Navbar>
-        {children}
+        <Navbar />
+        {children}  {/* Render page components here */}
+        <Footer />
       </body>
     </html>
   )
